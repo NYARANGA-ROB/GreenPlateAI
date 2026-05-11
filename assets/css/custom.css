@@ -1,0 +1,364 @@
+/* Custom CSS for GreenPlateAI */
+
+/* Main theme colors */
+:root {
+    --primary-color: #2E8B57;
+    --secondary-color: #FF6B6B;
+    --accent-color: #4ECDC4;
+    --warning-color: #FFA07A;
+    --success-color: #98D8C8;
+    --background-color: #f8f9fa;
+    --text-color: #333333;
+    --border-color: #dee2e6;
+}
+
+/* Body styling */
+.stApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header styling */
+.main-header {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Metric cards */
+.metric-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0.5rem 0;
+    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+/* Sidebar sections */
+.sidebar-section {
+    background: var(--background-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+}
+
+/* Message styling */
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #c3e6cb;
+    margin: 0.5rem 0;
+}
+
+.warning-message {
+    background: #fff3cd;
+    color: #856404;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ffeaa7;
+    margin: 0.5rem 0;
+}
+
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #f5c6cb;
+    margin: 0.5rem 0;
+}
+
+.info-message {
+    background: #d1ecf1;
+    color: #0c5460;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #bee5eb;
+    margin: 0.5rem 0;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #267349;
+    transform: translateY(-1px);
+}
+
+.stButton > button:active {
+    transform: translateY(0);
+}
+
+/* Primary button */
+.stButton > button[kind="primary"] {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Secondary button */
+.stButton > button[kind="secondary"] {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+/* Form styling */
+.stTextInput > div > input,
+.stSelectbox > div > select,
+.stDateInput > div > input {
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.stTextInput > div > input:focus,
+.stSelectbox > div > select:focus,
+.stDateInput > div > input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.25);
+}
+
+/* Table styling */
+.stDataFrame {
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.stDataFrame table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.stDataFrame th,
+.stDataFrame td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stDataFrame th {
+    background-color: var(--background-color);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.stDataFrame tr:hover {
+    background-color: rgba(46, 139, 87, 0.05);
+}
+
+/* Chart styling */
+.stPlotlyChart {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* Expander styling */
+.stExpander {
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.stExpander > div > div > div {
+    background-color: var(--background-color);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* Progress bar styling */
+.stProgress > div > div > div > div {
+    background-color: var(--primary-color);
+}
+
+/* Slider styling */
+.stSlider > div > div > div {
+    background-color: var(--primary-color);
+}
+
+/* Tabs styling */
+.stTabs > div > div > div > div {
+    background-color: var(--background-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.stTabs > div > div > div > div[data-baseweb="tab"] {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.stTabs > div > div > div > div[data-baseweb="tab"][aria-selected="true"] {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Alert styling */
+.stAlert {
+    border-radius: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+/* Card container */
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Badge styling */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.badge-success {
+    background-color: var(--success-color);
+}
+
+.badge-warning {
+    background-color: var(--warning-color);
+}
+
+.badge-danger {
+    background-color: var(--secondary-color);
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .metric-card {
+        margin: 0.25rem 0;
+    }
+    
+    .card {
+        padding: 1rem;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1a1a1a;
+        --text-color: #ffffff;
+        --border-color: #404040;
+    }
+    
+    .stApp {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    
+    .card {
+        background-color: #2a2a2a;
+        border-color: var(--border-color);
+    }
+    
+    .stDataFrame th,
+    .stDataFrame td {
+        border-color: var(--border-color);
+    }
+    
+    .stDataFrame th {
+        background-color: #333333;
+    }
+}
