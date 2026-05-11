@@ -1,0 +1,42 @@
+date,food_item,category,source,quantity_kg,estimated_cost,meal_period,dining_hall,notes
+2024-01-01,Rice,overproduction,kitchen,15.5,31.00,lunch,Main Hall,Prepared too much rice for lunch service
+2024-01-01,Chicken,spoilage,kitchen,8.2,24.60,dinner,Main Hall,Chicken stored past expiration date
+2024-01-01,Vegetables,plate_waste,dining_hall,12.3,18.45,lunch,Main Hall,Students left vegetables uneaten
+2024-01-01,Bread,preparation,kitchen,3.1,4.65,breakfast,Main Hall,Bread ends discarded during sandwich prep
+2024-01-01,Fruits,spoilage,kitchen,6.8,13.60,lunch,Main Hall,Fruits overripe and discarded
+2024-01-02,Pasta,overproduction,kitchen,18.7,37.40,dinner,Main Hall,Excess pasta prepared
+2024-01-02,Beef,plate_waste,dining_hall,9.4,28.20,lunch,Main Hall,Beef portions too large for students
+2024-01-02,Salad,preparation,kitchen,4.2,6.30,lunch,Main Hall,Wilting lettuce discarded
+2024-01-02,Desserts,plate_waste,dining_hall,7.1,21.30,dinner,Main Hall,Desserts not consumed
+2024-01-03,Fish,spoilage,kitchen,5.5,22.00,lunch,Main Hall,Fish not used within safe time
+2024-01-03,Potatoes,overproduction,kitchen,14.8,22.20,dinner,Main Hall,Too many potatoes cooked
+2024-01-03,Soup,plate_waste,dining_hall,3.9,7.80,lunch,Main Hall,Soup left uneaten
+2024-01-03,Cheese,preparation,kitchen,2.3,6.90,breakfast,Main Hall,Cheese trimmings discarded
+2024-01-04,Chicken,overproduction,kitchen,16.2,32.40,lunch,Main Hall,Chicken over-prepared
+2024-01-04,Rice,plate_waste,dining_hall,8.7,13.05,dinner,Main Hall,Rice portions wasted
+2024-01-04,Beans,spoilage,kitchen,4.1,8.20,lunch,Main Hall,Beans spoiled in storage
+2024-01-04,Bread,plate_waste,dining_hall,5.6,8.40,breakfast,Main Hall,Bread not eaten
+2024-01-05,Vegetables,overproduction,kitchen,19.3,28.95,lunch,Main Hall,Excess vegetables prepared
+2024-01-05,Beef,plate_waste,dining_hall,11.8,35.40,dinner,Main Hall,Beef portions too large
+2024-01-05,Pasta,spoilage,kitchen,6.7,13.40,lunch,Main Hall,Pasta stored too long
+2024-01-05,Fruits,plate_waste,dining_hall,9.2,18.40,dinner,Main Hall,Fruit not consumed
+2024-01-06,Rice,overproduction,kitchen,17.9,26.85,lunch,Main Hall,Rice over-prepared
+2024-01-06,Chicken,plate_waste,dining_hall,7.3,21.90,dinner,Main Hall,Chicken left uneaten
+2024-01-06,Salad,preparation,kitchen,3.8,5.70,lunch,Main Hall,Salad ingredients discarded
+2024-01-06,Desserts,spoilage,kitchen,4.4,13.20,dinner,Main Hall,Desserts expired
+2024-01-07,Fish,overproduction,kitchen,12.6,37.80,lunch,Main Hall,Fish over-prepared
+2024-01-07,Potatoes,plate_waste,dining_hall,8.9,17.80,dinner,Main Hall,Potatoes wasted
+2024-01-07,Soup,preparation,kitchen,2.7,5.40,lunch,Main Hall,Soup preparation waste
+2024-01-07,Cheese,plate_waste,dining_hall,4.3,12.90,breakfast,Main Hall,Cheese not consumed
+2024-01-08,Chicken,overproduction,kitchen,20.1,40.20,lunch,Main Hall,Chicken over-prepared
+2024-01-08,Rice,spoilage,kitchen,7.8,15.60,dinner,Main Hall,Rice spoiled in storage
+2024-01-08,Beans,plate_waste,dining_hall,6.2,12.40,lunch,Main Hall,Beans left uneaten
+2024-01-08,Bread,preparation,kitchen,3.5,5.25,breakfast,Main Hall,Bread preparation waste
+2024-01-09,Vegetables,plate_waste,dining_hall,13.7,20.55,lunch,Main Hall,Vegetables not eaten
+2024-01-09,Beef,overproduction,kitchen,15.4,46.20,dinner,Main Hall,Beef over-prepared
+2024-01-09,Pasta,plate_waste,dining_hall,8.1,16.20,lunch,Main Hall,Pasta wasted
+2024-01-09,Fruits,spoilage,kitchen,5.9,17.70,dinner,Main Hall,Fruits spoiled
+2024-01-10,Rice,overproduction,kitchen,18.3,27.45,lunch,Main Hall,Rice over-prepared
+2024-01-10,Chicken,plate_waste,dining_hall,9.6,28.80,dinner,Main Hall,Chicken left uneaten
+2024-01-10,Salad,preparation,kitchen,4.7,7.05,lunch,Main Hall,Salad preparation waste
+2024-01-10,Desserts,plate_waste,dining_hall,6.8,20.40,dinner,Main Hall,Desserts not consumed
