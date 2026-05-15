@@ -1,6 +1,5 @@
 """
 Reports module for GreenPlateAI.
-
 This module provides report generation, data export,
 and analytics reporting capabilities.
 """
