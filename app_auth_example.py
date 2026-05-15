@@ -35,7 +35,6 @@ def main():
 
 def show_login_page():
     """Show login page for unauthenticated users."""
-    
     # Import login page
     from auth.pages.login import show_login_page as login_page
     login_page()
