@@ -4,7 +4,6 @@ GreenPlateAI - University Food Waste Reduction Platform
 Main Streamlit application for AI-powered food waste reduction in university dining.
 """
 
-
 import streamlit as st
 import sys
 import os
