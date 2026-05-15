@@ -8,6 +8,7 @@ including waste reports, cost analysis, efficiency reports, and summaries.
 import pandas as pd
 
 import numpy as np
+
 from datetime import datetime, date, timedelta
 from typing import List, Dict, Optional, Any, Tuple
 import logging
