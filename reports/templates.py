@@ -1,6 +1,5 @@
 """
 Report templates and formatting utilities for GreenPlateAI.
-
 This module provides templates for different report types and
 functions for formatting and styling report data.
 """
