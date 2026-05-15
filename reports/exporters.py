@@ -1,6 +1,5 @@
 """
 Data export utilities for GreenPlateAI reports.
-
 This module provides functions for exporting data and reports
 to various formats including CSV, Excel, PDF, and JSON.
 """
