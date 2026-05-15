@@ -1,6 +1,5 @@
 """
 Core recommendations engine for GreenPlateAI.
-
 This module provides the main recommendation generation logic,
 pattern analysis, and priority calculation for waste reduction.
 """
