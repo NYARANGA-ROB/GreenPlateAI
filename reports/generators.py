@@ -21,7 +21,6 @@ from utils.helpers import format_currency, format_weight, format_percentage
 
 logger = logging.getLogger(__name__)
 
-
 def generate_waste_report(
     start_date: date,
     end_date: date,
