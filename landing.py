@@ -1,6 +1,5 @@
 """
 GreenPlateAI Landing Page
-
 A modern, sustainability-focused landing page for the university food waste management platform.
 Features hero section, animated metrics, SDG 12 alignment, and investor-ready design.
 """
