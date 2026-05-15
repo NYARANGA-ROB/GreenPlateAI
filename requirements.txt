@@ -3,7 +3,6 @@ streamlit==1.29.0
 streamlit-authenticator==0.2.3
 streamlit-option-menu==0.3.6
 
-
 # Database and ORM
 sqlalchemy==2.0.23
 alembic==1.12.1
