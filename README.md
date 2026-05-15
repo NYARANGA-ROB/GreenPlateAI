@@ -1,5 +1,4 @@
 # GreenPlateAI - University Food Waste Reduction Platform
-
 ## Overview
 
 GreenPlateAI is an AI-powered platform designed to help universities reduce food waste through intelligent forecasting, real-time monitoring, and actionable recommendations. The application uses machine learning algorithms to predict food consumption patterns, optimize meal planning, and provide insights for sustainable dining operations.
