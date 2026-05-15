@@ -16,6 +16,7 @@ from .helpers import (
     get_date_range, safe_get_nested_dict
 )
 
+
 __all__ = [
     # Configuration
     'get_config',
