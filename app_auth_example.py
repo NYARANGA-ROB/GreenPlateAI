@@ -4,7 +4,6 @@ Example main application demonstrating GreenPlateAI authentication system.
 This file shows how to integrate the authentication system into a Streamlit app
 with role-based access control and protected pages.
 """
-
 import streamlit as st
 import time
 
