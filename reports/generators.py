@@ -18,7 +18,6 @@ from database.connection import get_session
 from models.waste_record import WasteRecord
 from models.prediction import Prediction
 from utils.helpers import format_currency, format_weight, format_percentage
-
 logger = logging.getLogger(__name__)
 
 def generate_waste_report(
