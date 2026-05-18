@@ -14,6 +14,7 @@ from typing import Optional, Dict, Any, Tuple
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 
+
 try:
     import bcrypt
 except ImportError:
