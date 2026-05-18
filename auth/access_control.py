@@ -8,7 +8,6 @@ import functools
 import streamlit as st
 from typing import Callable, Optional, List, Union
 import logging
-
 from auth.auth_utils import auth_manager
 from models.user_auth import UserRole
 
