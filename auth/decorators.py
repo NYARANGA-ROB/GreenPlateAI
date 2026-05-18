@@ -1,6 +1,5 @@
 """
 Authentication decorators for GreenPlateAI.
-
 This module provides decorators for protecting routes and functions
 with authentication and authorization requirements.
 """
