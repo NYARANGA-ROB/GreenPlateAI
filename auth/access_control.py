@@ -38,7 +38,6 @@ def require_auth(func: Callable) -> Callable:
         return func(*args, **kwargs)
     
     return wrapper
-
 def require_role(required_role: Union[UserRole, List[UserRole]]) -> Callable:
     """
     Decorator to require specific user role(s).
