@@ -16,8 +16,7 @@ def require_auth(func: Callable) -> Callable:
     """
     Decorator to require authentication for a function.
     Args:
-        func: Function to protect
-        
+        func: Function to protect 
     Returns:
         Callable: Protected function
     """
