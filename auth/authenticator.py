@@ -1,6 +1,5 @@
 """
 Authentication logic for GreenPlateAI.
-
 This module provides core authentication functionality including
 user login/logout, session management, and password handling.
 """
