@@ -1,6 +1,5 @@
 """
 Access control decorators for GreenPlateAI authentication.
-
 This module provides decorators for protecting pages and functions
 with role-based access control and authentication requirements.
 """
