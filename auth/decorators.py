@@ -9,7 +9,6 @@ import functools
 import streamlit as st
 from typing import Callable, Optional, List
 import logging
-
 from .authenticator import get_current_user
 from .permissions import check_permission
 from models.user import UserRole
