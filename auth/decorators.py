@@ -16,7 +16,6 @@ from models.user import UserRole
 
 logger = logging.getLogger(__name__)
 
-
 def require_auth(func: Callable) -> Callable:
     """
     Decorator to require authentication for a function.
