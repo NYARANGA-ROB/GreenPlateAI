@@ -22,7 +22,6 @@ except ImportError:
 from models.user_auth import User, UserSession, PasswordReset, AuditLog, UserRole
 from database.connection import get_db
 
-
 class PasswordManager:
     """Password hashing and verification utilities."""
     PBKDF2_ITERATIONS = 390000
