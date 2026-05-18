@@ -12,7 +12,6 @@ from .authenticator import get_current_user
 from .permissions import check_permission
 from models.user import UserRole
 
-
 logger = logging.getLogger(__name__)
 def require_auth(func: Callable) -> Callable:
     """
