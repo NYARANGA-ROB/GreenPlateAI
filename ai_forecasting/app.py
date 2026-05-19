@@ -1,6 +1,5 @@
 """
 Main Streamlit application for AI forecasting system.
-
 This module provides the complete AI forecasting interface with
 demand prediction, waste forecasting, and recommendations.
 """
