@@ -60,7 +60,6 @@ class AnalyticsCharts:
                         title: str = "", color: str = 'blue') -> go.Figure:
         """Create line chart for trends."""
         fig = go.Figure()
-        
         fig.add_trace(go.Scatter(
             x=data[x_col],
             y=data[y_col],
