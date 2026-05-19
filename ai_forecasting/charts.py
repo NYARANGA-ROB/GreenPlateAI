@@ -1,6 +1,5 @@
 """
 Forecast charts for AI forecasting system.
-
 This module provides comprehensive visualization charts for
 demand and waste forecasting using Plotly.
 """
