@@ -29,7 +29,6 @@ def require_auth(func: Callable) -> Callable:
             st.stop()
         return func(*args, **kwargs)
     return wrapper
-
 def require_role(required_role: UserRole) -> Callable:
     """
     Decorator to require specific user role.
