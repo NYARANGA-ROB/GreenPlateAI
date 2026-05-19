@@ -23,7 +23,6 @@ class ForecastCharts:
                                    title: str = "Demand Forecast") -> go.Figure:
         """Create demand forecast chart with historical data and predictions."""
         fig = go.Figure()
-        
         # Add historical data
         if not historical_data.empty and 'date' in historical_data.columns and 'demand' in historical_data.columns:
             fig.add_trace(go.Scatter(
