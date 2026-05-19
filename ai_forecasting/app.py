@@ -16,6 +16,7 @@ from ai_forecasting.models import DemandForecastModel, WasteForecastModel, Ensem
 from ai_forecasting.data_preprocessing import DataPreprocessor
 from ai_forecasting.predictions import ForecastingEngine, DemandPredictor, WastePredictor
 from ai_forecasting.charts import ForecastCharts
+
 from ai_forecasting.recommendations import RecommendationEngine
 
 # Configure logging
