@@ -42,7 +42,6 @@ class ForecastCharts:
             pred_values = forecast_data['predictions']
             
             if isinstance(pred_values, np.ndarray):
-                
                 pred_values = pred_values.tolist()
                 
             elif not isinstance(pred_values, list):
