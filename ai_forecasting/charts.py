@@ -50,6 +50,7 @@ class ForecastCharts:
             fig.add_trace(go.Scatter(
                 x=pred_dates,
                 y=pred_values,
+                
                 mode='lines+markers',
                 name='Forecast',
                 line=dict(color='#FF6B6B', width=3, dash='dash'),
