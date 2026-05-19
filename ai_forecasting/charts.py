@@ -4,6 +4,7 @@ This module provides comprehensive visualization charts for
 demand and waste forecasting using Plotly.
 """
 
+
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
