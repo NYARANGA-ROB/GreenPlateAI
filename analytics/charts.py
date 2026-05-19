@@ -87,7 +87,6 @@ class AnalyticsCharts:
             colors = px.colors.qualitative.Set1[:len(y_cols)]
         
         fig = go.Figure()
-        
         for i, y_col in enumerate(y_cols):
             fig.add_trace(go.Scatter(
                 x=data[x_col],
