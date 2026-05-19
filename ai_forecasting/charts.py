@@ -10,7 +10,6 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import pandas as pd
 import numpy as np
-
 from datetime import datetime, date, timedelta
 from typing import Dict, List, Any, Optional, Tuple
 import logging
