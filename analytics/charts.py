@@ -52,7 +52,6 @@ class AnalyticsCharts:
             paper_bgcolor='white',
             plot_bgcolor='white'
         )
-        
         return fig
     
     @staticmethod
