@@ -33,7 +33,6 @@ class AnalyticsCharts:
         
         # Create figure
         fig = go.Figure()
-        
         # Add main value
         fig.add_trace(go.Indicator(
             mode="number+delta",
