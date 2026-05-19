@@ -66,7 +66,6 @@ def require_role(required_role: UserRole) -> Callable:
         return wrapper
     return decorator
 
-
 def require_permission(permission: str) -> Callable:
     """
     Decorator to require specific permission.
