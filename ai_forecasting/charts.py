@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 
 class ForecastCharts:
     """Chart creation for forecasting visualizations."""
-    
     @staticmethod
     def create_demand_forecast_chart(historical_data: pd.DataFrame, 
                                    forecast_data: Dict[str, Any],
