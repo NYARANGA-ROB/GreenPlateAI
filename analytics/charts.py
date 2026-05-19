@@ -18,7 +18,6 @@ logger = logging.getLogger(__name__)
 
 class AnalyticsCharts:
     """Chart creation for analytics dashboard."""
-    
     @staticmethod
     def create_kpi_card(title: str, value: float, unit: str, change: float = 0,
                        trend: str = 'stable', color: str = 'blue') -> go.Figure:
