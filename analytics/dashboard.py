@@ -1,7 +1,6 @@
 """
 Professional analytics dashboard for GreenPlateAI.
 
-
 This module provides a comprehensive analytics dashboard with
 KPI cards, interactive charts, and exportable summaries.
 """
