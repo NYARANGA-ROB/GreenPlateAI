@@ -13,6 +13,7 @@ import os
 # Add project root to Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+
 # Initialize database first
 from database.init_db import init_database
 init_database(create_sample_data=True)
