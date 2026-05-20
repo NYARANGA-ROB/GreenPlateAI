@@ -14,7 +14,6 @@ from typing import Dict, List, Any, Optional, Tuple
 import logging
 logger = logging.getLogger(__name__)
 
-
 class AnalyticsCharts:
     """Chart creation for analytics dashboard."""
     @staticmethod
