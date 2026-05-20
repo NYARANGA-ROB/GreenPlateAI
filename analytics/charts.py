@@ -1,5 +1,6 @@
 """
 Plotly charts for GreenPlateAI analytics dashboard.
+
 This module provides comprehensive visualization charts for
 dashboard metrics and analytics.
 """
