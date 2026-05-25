@@ -6,6 +6,7 @@ demand and waste forecasting using Plotly.
 
 
 import plotly.graph_objects as go
+
 import plotly.express as px
 from plotly.subplots import make_subplots
 import pandas as pd
