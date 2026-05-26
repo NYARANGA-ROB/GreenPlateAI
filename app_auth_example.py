@@ -15,6 +15,7 @@ from auth import (
     auth_manager, check_authentication, get_current_user, is_authenticated,
 
     require_auth, require_admin, require_kitchen_staff,
+
     show_authenticated_sidebar, render_sidebar
 )
 from models.user_auth import UserRole
