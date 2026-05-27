@@ -44,7 +44,6 @@ def show_main_app():
     
     # Show sidebar navigation
     render_sidebar()
-    
     # Main content area
     st.markdown("# 🥗 GreenPlateAI Dashboard")
     st.markdown(f"Welcome back, **{user_info.get('full_name', user_info.get('username'))}**!")
