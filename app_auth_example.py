@@ -97,7 +97,6 @@ def show_admin_dashboard():
 @require_kitchen_staff
 def show_kitchen_staff_dashboard():
     """Kitchen staff dashboard with kitchen management features."""
-    
     st.markdown("## 👨‍🍳 Kitchen Staff Dashboard")
     
     # Quick stats
