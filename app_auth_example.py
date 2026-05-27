@@ -162,7 +162,6 @@ def show_user_management():
     """Show user management interface (admin only)."""
     
     st.markdown("### User Management")
-    
     # Add new user form
     with st.expander("➕ Add New User", expanded=False):
         with st.form("add_user_form"):
