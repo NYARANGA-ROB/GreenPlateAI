@@ -26,7 +26,6 @@ from utils.helpers import format_currency, format_weight, format_percentage
 from auth.authenticator import authenticate_user, logout_user, get_current_user
 from dashboards.charts import create_waste_trend_chart, create_category_pie_chart
 from forecasting.models import get_demand_forecast
-
 from recommendations.engine import get_waste_reduction_recommendations
 
 # Configure logging
