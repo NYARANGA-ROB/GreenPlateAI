@@ -14,7 +14,6 @@ from auth import (
 )
 from models.user_auth import UserRole
 
-
 def main():
     """Main application entry point."""
     # Page configuration
