@@ -19,7 +19,6 @@ from models.user_auth import UserRole
 
 def main():
     """Main application entry point."""
-    
     # Page configuration
     st.set_page_config(
         page_title="GreenPlateAI - Food Waste Management",
