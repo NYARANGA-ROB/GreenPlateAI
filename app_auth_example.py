@@ -62,7 +62,6 @@ def show_main_app():
 @require_auth
 def show_admin_dashboard():
     """Admin dashboard with full system access."""
-    
     st.markdown("## 👨‍💼 Administrator Dashboard")
     
     # Quick stats
