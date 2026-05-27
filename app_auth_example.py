@@ -6,6 +6,7 @@ with role-based access control and protected pages.
 
 import streamlit as st
 import time
+
 # Import authentication components
 from auth import (
     auth_manager, check_authentication, get_current_user, is_authenticated,
