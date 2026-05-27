@@ -36,7 +36,6 @@ def show_login_page():
     from auth.pages.login import show_login_page as login_page
     login_page()
 
-
 def show_main_app():
     """Show main application for authenticated users."""
     # Get current user
