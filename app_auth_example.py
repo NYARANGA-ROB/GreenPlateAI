@@ -56,7 +56,6 @@ def show_main_app():
     else:  # STUDENT
         show_student_dashboard()
 
-
 @require_auth
 def show_admin_dashboard():
     """Admin dashboard with full system access."""
