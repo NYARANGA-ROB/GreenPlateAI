@@ -30,7 +30,6 @@ def main():
     else:
         show_main_app()
 
-
 def show_login_page():
     """Show login page for unauthenticated users."""
     # Import login page
