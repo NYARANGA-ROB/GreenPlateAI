@@ -39,7 +39,6 @@ def show_login_page():
 
 def show_main_app():
     """Show main application for authenticated users."""
-    
     # Get current user
     user_info = get_current_user()
     user_role = UserRole(user_info.get('role', 'student'))
