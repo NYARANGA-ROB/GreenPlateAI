@@ -8,6 +8,7 @@ import streamlit as st
 import time
 
 # Import authentication components
+
 from auth import (
     auth_manager, check_authentication, get_current_user, is_authenticated,
     require_auth, require_admin, require_kitchen_staff,
