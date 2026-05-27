@@ -14,6 +14,7 @@ from auth import (
     require_auth, require_admin, require_kitchen_staff,
     show_authenticated_sidebar, render_sidebar
 )
+
 from models.user_auth import UserRole
 
 def main():
